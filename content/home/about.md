@@ -18,6 +18,11 @@ weight = 5
 # List your qualifications (such as academic degrees).
 
 [[education.courses]]
+  course = "PhD in Evolutionary Biology"
+  institution = "School of Life Sciencies at ASU"
+  year = "2020-present"
+
+[[education.courses]]
   course = "Master's degree in Ecology and Evolution"
   institution = "Federal University of São Paulo (UNIFESP)"
   year = 2019
@@ -33,9 +38,9 @@ weight = 5
 
 Hey!! Thanks for visiting my website. If you find anything useful, please let me know. If you would suggest improvements, please do.
 
-I earned a master's degree in Ecology and Evolution at the [Federal University of São Paulo](http://www.unifesp.br). I am interested in understanding patterns of traits evolution in reptile lineages. Within this context, I have been trying to spend most of my time learning about comparative methods in order to generate hypotheses and draw broad conclusions that can be applied to wide ranges of taxa. Particularly, I will be gathering physiological and ecological data from several species and using statistical analyses of the species means to make historical inferences. There are a variety of questions I would like to address, including whether two traits have been linked with each other over evolutionary time, whether the rate of phenotypic evolution differs across two clades or in two different types of traits, or whether one trait has been subjected to greater phylogenetic constraint or inertia. 
+I am an Evolutionary Biology PhD student at the School of Life Sciences - [Arizona State University](http://asu.edu), interested in understanding patterns of traits evolution in reptiles and, more recently, in coral lineages. My work is focused on the application of comparative methods in order to generate hypotheses and draw broad conclusions that can be applied to wide ranges of taxa. I am a big fan of free softwares such as Gnu/Emacs and R, which are powerful programs any scientist can use to do pretty much whatever they want to do; seriously, you can perform statistical analyses, write documents, make cool presentations and more, so try it and I bet you will never go away from it. Anyway!! during my PhD, my job will be to gather physiological and ecological data from several species and to use statistical analyses of the species means to make historical inferences. There are a variety of questions I would like to address, including whether two traits have been linked with each other over evolutionary time, whether the rate of phenotypic evolution differs across two clades or in two different types of traits, or whether one trait has been subjected to greater phylogenetic constraint or inertia. 
 
-If you are interested in the same topics I mentioned above and want to work with me in the future, feel free to contact me [here](mailto:dylan.padilla94@gmail.com).
+If you are interested in the same topics I mentioned above and want to work with me in the future, feel free to contact me [here](mailto:dpadil10@asu.edu).
 
 
 
