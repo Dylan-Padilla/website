@@ -52,18 +52,18 @@ enableGitInfo = true
 
   # Your details.
   name = "Dylan J. Padilla-Perez"
-  role = "M.S. in Ecology and Evolution"
+  role = "Evolutionary Biology PhD student"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Federal University of São Paulo", url = "http://www.unifesp.br" } ]
+  organizations = [ { name = "Arizona State University (ASU)", url = "https://www.asu.edu/" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   
   # Details for the Contact Widget
-  email = "dylan.padilla94@gmail.com"
-  address = "Ecophysiology and Evolutionary Physiology Lab (219), Biosciences Institute, University of São Paulo, Brazil."
+  email = "dpadil10@asu.edu"
+  address = "Angilletta Lab, School of Life Sciences, Tempe, AZ 85287."
   office_hours = ""
   phone = "(+57) 315 222-7347"
   skype = ""
@@ -91,8 +91,8 @@ enableGitInfo = true
   #   3: OpenStreetMap (Mapbox)
   map = 2
   map_api_key = ""
-  latitude = "-23.565866"
-  longitude = "-46.730344"
+  latitude = "33.4200011"
+  longitude = "-111.9339815"
   zoom = 15
 
   # SITE SETUP
@@ -240,12 +240,12 @@ enableGitInfo = true
   [[params.social]]
     icon = "envelope"
     icon_pack = "fas"
-    link = "mailto:dylan.padilla94@gmail.com"
+    link = "mailto:dpadil10@asu.edu"
 
   [[params.social]]
-    icon = ""
-    icon_pack = ""
-    link = ""
+    icon = "twitter"
+    icon_pack = "fab"
+    link = "https://mobile.twitter.com/Dylan_Padilla94"
 
   [[params.social]]
     icon = "google-scholar"
