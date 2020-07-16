@@ -19,7 +19,7 @@ weight = 5
 
 [[education.courses]]
   course = "PhD in Evolutionary Biology"
-  institution = "School of Life Sciencies at ASU"
+  institution = "School of Life Sciences at ASU"
   year = "2020-present"
 
 [[education.courses]]
