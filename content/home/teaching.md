@@ -15,8 +15,5 @@ weight = 60
 
 +++
 
-## BIO 530: Scientific Teaching
+# BIO 340 - General Genetics
 
-The interest track that I chose to focus on is **Online Teaching**. I think that the current circumstances have taught us that we need to look for alternatives ways to teach. However, as a framing question, I wonder how the online environment can be more engaging and less distracting for students and instructor. Which tools can I use to get my students focused on the class? What should I evaluate in my students for them to learn effectively? How online-teaching can be better/more effective that in-person teaching?
-
-Please stay tuned for more information. In addition to the tabs I have included on this website, I will create more tabs with content on Literature Review, Seminars and Podcast.
