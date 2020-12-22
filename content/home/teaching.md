@@ -15,5 +15,5 @@ weight = 60
 
 +++
 
-# BIO 340 - General Genetics
+### BIO 340 - General Genetics
 
