@@ -30,7 +30,7 @@ abstract_short = "Theoretical models predict that lizards adjust their body temp
 
 
 # Featured image thumbnail (optional)
-image_preview = "tropidurus.jpeg"
+image_preview = "JEB_paper.PNG"
 
 # Is this a selected publication? (true/false)
 selected = true
@@ -66,7 +66,7 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "Padilla Perez et al., 2021.PNG"
+image = "JEB_paper.PNG"
 caption = " "
 
 +++
