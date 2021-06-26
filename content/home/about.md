@@ -11,7 +11,7 @@ weight = 5
 [interests]
   interests = [
     "Evolutionary Biology",
-    "Ecophysiology",
+    "Life History Evolution",
     "Programming (R software)"
   ]
 
