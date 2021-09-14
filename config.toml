@@ -271,6 +271,7 @@ enableGitInfo = true
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
+
 [params.menus]
   # Align the main menu to the right of the page? (true/false)
   align_right = false
