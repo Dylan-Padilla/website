@@ -59,7 +59,7 @@ enableGitInfo = true
   organizations = [ { name = "Arizona State University (ASU)", url = "https://www.asu.edu/" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "photo.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   
   # Details for the Contact Widget
   email = "dpadil10@asu.edu"
