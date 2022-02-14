@@ -13,12 +13,12 @@ title = ""
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2020"
+copyright = "&copy; 2022"
 
 theme = "hugo-academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$",  "_files$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 preserveTaxonomyNames = true
 paginate = 10
 
@@ -271,7 +271,6 @@ enableGitInfo = true
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
-
 [params.menus]
   # Align the main menu to the right of the page? (true/false)
   align_right = false
@@ -354,3 +353,8 @@ enableGitInfo = true
 #    name = "Wo"
 #    url = "#about"
 #    weight = 1
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
