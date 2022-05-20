@@ -314,7 +314,7 @@ enableGitInfo = true
 
 # Search.
 [params.search]
-  # Search provider:
+  Search provider:
   #   0: No search engine
   #   1: Built-in (Fuse)
   #   2: Algolia (https://www.algolia.com)
