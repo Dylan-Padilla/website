@@ -33,7 +33,7 @@ abstract_short = "Theoretical models predict that lizards adjust their body temp
 image_preview = "JEB_paper.PNG"
 
 # Is this a selected publication? (true/false)
-selected = true
+selected = false
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
