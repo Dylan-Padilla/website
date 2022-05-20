@@ -34,7 +34,7 @@ abstract_short = "Physiologists have primarily focused on two potential explanat
 image_preview = "Vimmerstedt_paper.png"
 
 # Is this a selected publication? (true/false)
-selected = true
+selected = false
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
