@@ -33,7 +33,7 @@ abstract_short = "There are a variety of defense mechanisms that reptiles can ex
 image_preview = "D-rhombifer.jpg"
 
 # Is this a selected publication? (true/false)
-selected = true
+selected = false
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
