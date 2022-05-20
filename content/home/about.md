@@ -25,17 +25,17 @@ caption = " "
 
 [[education.courses]]
   course = "PhD in Evolutionary Biology"
-  institution = "School of Life Sciences at ASU"
+  institution = "School of Life Sciences at ASU, USA."
   year = "2020-present"
 
 [[education.courses]]
   course = "M.S. in Ecology and Evolution"
-  institution = "Federal University of São Paulo (UNIFESP)"
+  institution = "Federal University of São Paulo (UNIFESP), Brazil."
   year = 2019
 
 [[education.courses]]
   course = "BSc in Biology"
-  institution = "Universidad del Atlántico"
+  institution = "Universidad del Atlántico, Colombia."
   year = 2016
 
 +++
