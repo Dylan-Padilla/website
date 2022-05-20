@@ -33,7 +33,7 @@ abstract_short = "If fitness optima for a given trait differ between males and f
 image_preview = "Logan, 2021.PNG"
 
 # Is this a selected publication? (true/false)
-selected = true
+selected = false
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
