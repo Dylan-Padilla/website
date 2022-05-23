@@ -46,7 +46,7 @@ Hey!! Thanks for visiting my website. If you find anything useful, please let me
 
 I am an Evolutionary Biology PhD student at the School of Life Sciences, [Arizona State University](http://asu.edu). My research examines the evolution of the life history among vertabrates and invertabrates. In this context, I use phylogenetic comparative methods to generate hypotheses and draw broad conclusions that can be applied to wide ranges of taxa. I am particularly interested in studying the evolution of foraging mode and its connection to some life-history traits such as adult body size, reproductive effort, age of first reproduction, etc.
 
-In addition, I conduct experimental evolution studies in the laboratory to examine the frequencie of alleles that regulate foraging behavior among individuals of populations that evolve under different selective preasures, which enables me to make strong inferences concerning phenotypic and genetic responses to selection.
+In addition, I conduct experimental evolution studies in the laboratory to examine the frequency of alleles that regulate foraging behavior among individuals of populations that evolve under different selective preasures, which enables me to make strong inferences concerning phenotypic and genetic responses to selection.
 
 If you are interested in life history theory, please reach out to me [here](mailto:dpadil10@asu.edu). Can't wait to discuss exciting ideas with you!
 
