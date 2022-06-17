@@ -1,6 +1,6 @@
 +++
 title = "presentation-evo-2022"
-date = 2022-06-26T00:00:00  # Schedule page publish date.
+date = 2022-06-26T21:00:00  # Schedule page publish date.
 draft = false
 
 
@@ -33,10 +33,10 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = "/static/files/evo-2022/presentation.pdf"
-url_slides = "/Users/dpadil10/Dropbox%20(ASU)/R_coding/web_site/static/files/evo-2022/presentation.html#1"
+url_pdf = ""
+url_slides = "static/files/evo-2022"
 url_video = ""
-url_code = ""
+url_code = "https://github.com/Dylan-Padilla/evo-2022"
 
 # Does the content use math formatting?
 math = true
