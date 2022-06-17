@@ -34,7 +34,7 @@ tags = []
 
 # Links (optional).
 url_pdf = ""
-url_slides = "static/files/evo-2022"
+url_slides = "https://github.com/Dylan-Padilla/evo-2022/blob/main/presentation.html"
 url_video = ""
 url_code = "https://github.com/Dylan-Padilla/evo-2022"
 
