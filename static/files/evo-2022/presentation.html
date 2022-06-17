@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>The correlated evolution of foraging mode and reproductive effort in lizards</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="                Dylan Padilla, Dale DeNardo &amp; Michael Angilletta   June, 2022     dpadil10@asu.edu |   https://dylanpadilla.netlify.app/" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="default.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# The correlated evolution of foraging mode and reproductive effort in lizards
+### <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>Dylan Padilla, Dale DeNardo &amp; Michael Angilletta <br/> June, 2022 <br /> <svg viewBox="0 0 512 512" style="position:relative;display:inline-block;top:.1em;fill:red;height:1em;" xmlns="http://www.w3.org/2000/svg"> <path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg> <a href="mailto:dpadil10@asu.edu" class="email">dpadil10@asu.edu</a> | <svg viewBox="0 0 512 512" style="position:relative;display:inline-block;top:.1em;fill:red;height:1em;" xmlns="http://www.w3.org/2000/svg"> <path d="M326.612 185.391c59.747 59.809 58.927 155.698.36 214.59-.11.12-.24.25-.36.37l-67.2 67.2c-59.27 59.27-155.699 59.262-214.96 0-59.27-59.26-59.27-155.7 0-214.96l37.106-37.106c9.84-9.84 26.786-3.3 27.294 10.606.648 17.722 3.826 35.527 9.69 52.721 1.986 5.822.567 12.262-3.783 16.612l-13.087 13.087c-28.026 28.026-28.905 73.66-1.155 101.96 28.024 28.579 74.086 28.749 102.325.51l67.2-67.19c28.191-28.191 28.073-73.757 0-101.83-3.701-3.694-7.429-6.564-10.341-8.569a16.037 16.037 0 0 1-6.947-12.606c-.396-10.567 3.348-21.456 11.698-29.806l21.054-21.055c5.521-5.521 14.182-6.199 20.584-1.731a152.482 152.482 0 0 1 20.522 17.197zM467.547 44.449c-59.261-59.262-155.69-59.27-214.96 0l-67.2 67.2c-.12.12-.25.25-.36.37-58.566 58.892-59.387 154.781.36 214.59a152.454 152.454 0 0 0 20.521 17.196c6.402 4.468 15.064 3.789 20.584-1.731l21.054-21.055c8.35-8.35 12.094-19.239 11.698-29.806a16.037 16.037 0 0 0-6.947-12.606c-2.912-2.005-6.64-4.875-10.341-8.569-28.073-28.073-28.191-73.639 0-101.83l67.2-67.19c28.239-28.239 74.3-28.069 102.325.51 27.75 28.3 26.872 73.934-1.155 101.96l-13.087 13.087c-4.35 4.35-5.769 10.79-3.783 16.612 5.864 17.194 9.042 34.999 9.69 52.721.509 13.906 17.454 20.446 27.294 10.606l37.106-37.106c59.271-59.259 59.271-155.699.001-214.959z"></path></svg> <a href="https://dylanpadilla.netlify.app/" class="uri">https://dylanpadilla.netlify.app/</a>
+
+---
+
+
+
+
+
+# Acknowledgements
+
+
+.pull-left[
+
+&lt;center&gt;
+
+&lt;p align="center"&gt;
+
+&lt;img float = "left" src = "images/Shai-Meiri.jpeg"  width = "310" height = "210"&gt;&lt;br&gt;
+
+Shai Meiri
+
+&lt;br&gt;
+
+&lt;img float = "right" src = "images/Mark-Oshea.jpeg"  width = "250" height = "220"&gt;&lt;br&gt;
+
+Mark O'Shea
+
+&lt;/p&gt;
+
+&lt;/center&gt;
+
+]
+
+.pull-right[
+
+&lt;center&gt;
+
+&lt;img float = "right" src = "images/Gustavo-Burin.png"  width = "210" height = "220"&gt;&lt;br&gt;
+
+Gustavo Burin
+
+&lt;br&gt;
+
+&lt;img float = "right" src = "images/Camila-Tabares.jpg"  width = "180" height = "220"&gt;&lt;br&gt;
+
+Camila Tabares
+
+&lt;/center&gt;
+
+]
+
+---
+
+# The foraging-mode paradigm
+
+
+.pull-left[
+
+&lt;p align="center"&gt;
+
+&lt;span style="color: orange;" &gt; Active foragers &lt;/span&gt;
+
+&lt;/p&gt;
+
+
+&lt;center&gt;
+
+&lt;img float = "left" src = "images/cnemis.gif"  width = "370" height = "210"&gt;
+
+&lt;img float = "right" src = "images/komodo.gif"  width = "370" height = "220"&gt;
+
+&lt;/center&gt;
+
+]
+
+.pull-right[
+
+&lt;p align="center"&gt;
+
+&lt;span style="color: orange;" &gt; Sit-and-wait foragers &lt;/span&gt;
+
+&lt;/p&gt;
+
+
+
+&lt;center&gt;
+
+&lt;img float = "right" src = "images/sidewander.gif"  width = "370" height = "220"&gt;
+
+&lt;img float = "left" src = "images/snapping-turtle.gif"  width = "370" height = "210"&gt;
+
+&lt;/center&gt;
+
+]
+
+---
+
+# Hypotheses about how an organism’s foraging mode relates to its life history
+
+
+&lt;img src="presentation_files/figure-html/unnamed-chunk-1-1.png" style="display: block; margin: auto;" /&gt;
+
+---
+
+# Hypotheses about how an organism’s foraging mode relates to its life history
+
+&lt;img src="presentation_files/figure-html/unnamed-chunk-2-1.png" style="display: block; margin: auto;" /&gt;
+
+
+---
+
+
+# Hypotheses about how an organism’s foraging mode relates to its life history
+
+&lt;img src="presentation_files/figure-html/unnamed-chunk-3-1.png" style="display: block; margin: auto;" /&gt;
+
+---
+
+
+# Hypotheses about how an organism’s foraging mode relates to its life history
+
+
+&lt;img src="presentation_files/figure-html/unnamed-chunk-4-1.png" style="display: block; margin: auto;" /&gt;
+
+
+---
+
+# Functional reproductive volume
+
+
+&lt;center&gt; 
+
+
+&lt;img float = "center" src = "images/model1.jpg"  width = "400" height = "380"&gt;
+
+
+&lt;p align = "center"&gt;
+
+&lt;span style = "color: orange;" &gt; Strategy 1: cryptic species; &lt;/span&gt;
+
+&lt;span style = "color: orange;" &gt; Strategy 2: escape efficiency &lt;/span&gt;
+
+&lt;/p&gt;
+
+&lt;br&gt;
+
+&lt;center&gt;
+
+Vitt and Congdon (1978); Vitt and Price (1982)
+
+&lt;/center&gt;
+
+---
+
+# Sit-and-wait lizards evolved greater reproductive effort than did active-foraging lizards?
+
+
+.pull-left[
+
+&lt;center&gt;
+
+&lt;img float = "right" src = "images/vitt-results.jpg"  width = "300" height = "390"&gt;
+
+&lt;/center&gt;
+
+]
+
+
+.pull-right[
+
+
+&lt;center&gt;
+
+
+&lt;img float = "right" src = "images/model2.jpg"  width = "300" height = "400"&gt;
+
+
+&lt;/center&gt;
+
+]
+
+&lt;br&gt;
+
+&lt;center&gt;
+
+Vitt and Congdon (1978); Vitt and Price (1982)
+
+&lt;/center&gt;
+
+
+---
+
+# Sit-and-wait lizards evolved greater reproductive effort than did active-foraging lizards?
+
+
+.pull-left[
+
+&lt;center&gt;
+
+&lt;img float = "right" src = "images/vitt-results.jpg"  width = "300" height = "390"&gt;
+
+&lt;/center&gt;
+
+]
+
+
+.pull-right[
+
+
+&lt;center&gt;
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+&lt;img float = "left" src = "images/mesquita.jpg"  width = "500" height = "150"&gt;
+
+&lt;/center&gt;
+
+]
+
+
+&lt;center&gt;
+
+Vitt and Congdon (1978); Vitt and Price (1982); Mesquita et al. (2016)
+
+&lt;/center&gt;
+
+
+---
+
+# Data source and description of variables
+
+&lt;img src = "images/Meiri-2018.jpeg"  width = "700" height = "220"&gt;
+
+
+- Offspring mass
+- Offspring number
+- Female mass
+
+&lt;center&gt;
+
+\[\hat M=M_i(\frac{L_0}{L_i})^b_{SMA} \]
+
+\[Reproductive\; output=Offspring\; size \times Offspring\; number \]
+
+&lt;/center&gt;
+
+
+---
+
+# Ancestral reconstruction of foraging mode
+
+&lt;br&gt;
+
+- We used a set of continuous-time, discrete-state Markov chain models to sample the character histories from their posterior probability distribution
+
+--
+
+- We fitted three different models to our data, using the function `make.simmap` from the [`phytools` 📦](https://cran.r-project.org/web/packages/phytools/index.html) of &lt;svg viewBox="0 0 581 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg"&gt;  &lt;path d="M581 226.6C581 119.1 450.9 32 290.5 32S0 119.1 0 226.6C0 322.4 103.3 402 239.4 418.1V480h99.1v-61.5c24.3-2.7 47.6-7.4 69.4-13.9L448 480h112l-67.4-113.7c54.5-35.4 88.4-84.9 88.4-139.7zm-466.8 14.5c0-73.5 98.9-133 220.8-133s211.9 40.7 211.9 133c0 50.1-26.5 85-70.3 106.4-2.4-1.6-4.7-2.9-6.4-3.7-10.2-5.2-27.8-10.5-27.8-10.5s86.6-6.4 86.6-92.7-90.6-87.9-90.6-87.9h-199V361c-74.1-21.5-125.2-67.1-125.2-119.9zm225.1 38.3v-55.6c57.8 0 87.8-6.8 87.8 27.3 0 36.5-38.2 28.3-87.8 28.3zm-.9 72.5H365c10.8 0 18.9 11.7 24 19.2-16.1 1.9-33 2.8-50.6 2.9v-22.1z"&gt;&lt;/path&gt;&lt;/svg&gt;, v. 1.0.1
+
+--
+
+- We estimated the prior distribution on the root node of the tree (`pi = 'estimated'`) and sampled the transition matrix, `Q`, from its posterior distribution (`Q = 'mcmc'`).
+
+--
+
+- We selected the most likely model of evolution based on the Akaike information criterion (AIC)
+
+---
+
+# Effects of maternal mass and foraging mode on reproductive output
+
+- We used PGLS to model the relationship among maternal mass, foraging mode and reproductive output trough the `gls` function from the [`nlme` 📦](https://cran.r-project.org/web/packages/nlme/index.html) of &lt;svg viewBox="0 0 581 512" style="height:1em;position:relative;display:inline-block;top:.1em;" xmlns="http://www.w3.org/2000/svg"&gt;  &lt;path d="M581 226.6C581 119.1 450.9 32 290.5 32S0 119.1 0 226.6C0 322.4 103.3 402 239.4 418.1V480h99.1v-61.5c24.3-2.7 47.6-7.4 69.4-13.9L448 480h112l-67.4-113.7c54.5-35.4 88.4-84.9 88.4-139.7zm-466.8 14.5c0-73.5 98.9-133 220.8-133s211.9 40.7 211.9 133c0 50.1-26.5 85-70.3 106.4-2.4-1.6-4.7-2.9-6.4-3.7-10.2-5.2-27.8-10.5-27.8-10.5s86.6-6.4 86.6-92.7-90.6-87.9-90.6-87.9h-199V361c-74.1-21.5-125.2-67.1-125.2-119.9zm225.1 38.3v-55.6c57.8 0 87.8-6.8 87.8 27.3 0 36.5-38.2 28.3-87.8 28.3zm-.9 72.5H365c10.8 0 18.9 11.7 24 19.2-16.1 1.9-33 2.8-50.6 2.9v-22.1z"&gt;&lt;/path&gt;&lt;/svg&gt;, v. 3.1.153
+
+--
+
+- The slope of the linear relationship can be interpreted as reproductive effort—proportion of mass allocated to reproduction—which enabled us to avoid statistical issues associated with the analysis of ratios
+
+--
+
+- Models in which maternal mass was standardized (M) enabled us to deal with outliers, thus increasing the robustness of our conclusions
+
+
+---
+
+# Sit-and-wait foraging is the most likely ancestral state
+
+
+&lt;center&gt;
+
+&lt;img src = "images/figure2.jpeg"  width = "590" height = "590"&gt;
+
+&lt;/center&gt;
+
+
+---
+
+# Foraging mode is conserved among lizards
+
+
+&lt;center&gt;
+
+&lt;img src = "images/figure2.jpeg"  width = "590" height = "590"&gt;
+
+&lt;/center&gt;
+
+
+---
+
+# The evolution of reproductive effort in lizards was driven by an interaction between maternal mass and foraging mode
+
+&lt;center&gt;
+
+&lt;img src = "images/figure3.jpeg"  width = "590" height = "490"&gt;
+
+&lt;/center&gt;
+
+---
+
+
+Our analysis provides evidence that  widely-foraging lizards have evolved greater reproductive effort, but only in heavier species. Food consumption may play an important role:
+
+&lt;br&gt;
+
+1) Promoting follicular growth during the reproductive season
+
+&lt;br&gt;
+
+2) Increasing energy stores to initiate reproduction
+
+&lt;br&gt;
+
+3) reducing age at first reproduction
+
+
+---
+
+.pull-left[
+
+a) If two organisms have the same foraging efficiency, the smaller one would reach its maximal capacity to accumulate resources at a lower value of m, producing fewer or smaller offspring
+
+&lt;br&gt;
+
+b) If a widely-foraging species has a smaller body size but a higher foraging efficiency, it might invest more energy in reproduction than would a large sit-and-wait species
+
+&lt;br&gt;
+
+3) The same outcome should be observed if a widely-foraging species is larger and more efficient than a sit-and-wait species
+
+
+]
+
+.pull-right[
+
+
+&lt;center&gt;
+
+&lt;img src = "images/figure4.jpeg"  width = "210" height = "560"&gt;
+
+&lt;/center&gt;
+
+
+]
+
+---
+
+# Concluding remarks
+
+&lt;br&gt;
+
+- The early shift in foraging mode—from sit-and-wait foraging to widely foraging—in the evolutionary history of lacertilians was likely accompanied by the evolution of a greater reproductive effort, specifically in large-bodied species of lizards
+
+&lt;br&gt;
+
+- Importantly, our study captured the effects of foraging plasticity on the reproductive effort of lizards. For instance, lizards that adopt a mixed-foraging strategy produced the greatest reproductive effort
+
+
+.pull-left[
+
+&lt;center&gt;
+
+&lt;br&gt;&lt;br&gt;
+
+To find more, see 👉
+
+&lt;/center&gt;
+
+]
+
+.pull-right[
+
+&lt;img src = "images/qrcode.png"  width = "200" height = "200"&gt;
+
+]
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": true
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
