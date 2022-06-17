@@ -1,0 +1,572 @@
+---
+title: "The correlated evolution of foraging mode and reproductive effort in lizards"
+author: <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>Dylan Padilla, Dale DeNardo & Michael Angilletta <br/> June, 2022 <br /> `r icon_style(fontawesome("envelope", style = "solid"), scale = 1, fill = "red")` dpadil10@asu.edu | `r icon_style(fontawesome("link", style = "solid"), scale = 1, fill = "red")` https://dylanpadilla.netlify.app/
+output:
+  xaringan::moon_reader:
+    css: ["default", "default.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: true
+---
+
+```{r setup, include=FALSE}
+require(rmarkdown)
+require(xaringan)
+require(knitr)
+require(icons)
+require(emo)
+options(htmltools.dir.version = FALSE)
+```
+
+
+# Acknowledgements
+
+
+.pull-left[
+
+<center>
+
+<p align="center">
+
+<img float = "left" src = "images/Shai-Meiri.jpeg"  width = "310" height = "210"><br>
+
+Shai Meiri
+
+<br>
+
+<img float = "right" src = "images/Mark-Oshea.jpeg"  width = "250" height = "220"><br>
+
+Mark O'Shea
+
+</p>
+
+</center>
+
+]
+
+.pull-right[
+
+<center>
+
+<img float = "right" src = "images/Gustavo-Burin.png"  width = "210" height = "220"><br>
+
+Gustavo Burin
+
+<br>
+
+<img float = "right" src = "images/Camila-Tabares.jpg"  width = "180" height = "220"><br>
+
+Camila Tabares
+
+</center>
+
+]
+
+---
+
+# The foraging-mode paradigm
+
+
+.pull-left[
+
+<p align="center">
+
+<span style="color: orange;" > Active foragers </span>
+
+</p>
+
+
+<center>
+
+<img float = "left" src = "images/cnemis.gif"  width = "370" height = "210">
+
+<img float = "right" src = "images/komodo.gif"  width = "370" height = "220">
+
+</center>
+
+]
+
+.pull-right[
+
+<p align="center">
+
+<span style="color: orange;" > Sit-and-wait foragers </span>
+
+</p>
+
+
+
+<center>
+
+<img float = "right" src = "images/sidewander.gif"  width = "370" height = "220">
+
+<img float = "left" src = "images/snapping-turtle.gif"  width = "370" height = "210">
+
+</center>
+
+]
+
+---
+
+# Hypotheses about how an organism’s foraging mode relates to its life history
+
+
+```{r, echo = FALSE, fig.height = 7, fig.width = 7, fig.align = "center", warning = FALSE, comment = " ", message = FALSE}
+
+
+require(shape)
+
+par(mar = c(1, 1, 1, 1))
+plot(NA, NA, xlim = c(0, 10), ylim = c(-1, 10), ann = FALSE, axes = FALSE)
+
+
+text(5, 10, "Foraging mode")
+segments(3.5, 9.6, 6.5, 9.6, lwd = 2)
+segments(3.5, 10.4, 6.5, 10.4, lwd = 2)
+segments(3.5, 10.4, 3.5, 9.6, lwd = 2)
+segments(6.5, 10.4, 6.5, 9.6, lwd = 2)
+text(5, 7, "Distance traveled")
+segments(3.5, 6.5, 6.5, 6.5, lwd = 2)
+segments(3.5, 7.5, 6.5, 7.5, lwd = 2)
+segments(3.5, 6.5, 3.5, 7.5, lwd = 2)
+segments(6.5, 7.5, 6.5, 6.5, lwd = 2)
+text(8.6, 7, "Predation risk")
+segments(7.5, 6.5, 9.8, 6.5, lwd = 2)
+segments(7.5, 7.5, 9.8, 7.5, lwd = 2)
+segments(7.5, 6.5, 7.5, 7.5, lwd = 2)
+segments(9.8, 7.5, 9.8, 6.5, lwd = 2)
+
+Arrows(5, 9.5, 5, 7.8, lwd = 2, arr.type = "triangle")
+Arrows(6.6, 7, 7, 7, lwd = 2, arr.type = "triangle")
+
+```
+
+---
+
+# Hypotheses about how an organism’s foraging mode relates to its life history
+
+```{r, echo = FALSE, fig.height = 7, fig.width = 7, fig.align = "center", warning = FALSE, comment = " ", message = FALSE}
+
+par(mar = c(1, 1, 1, 1))
+plot(NA, NA, xlim = c(0, 10), ylim = c(-1, 10), ann = FALSE, axes = FALSE)
+
+
+text(5, 10, "Foraging mode")
+segments(3.5, 9.6, 6.5, 9.6, lwd = 2)
+segments(3.5, 10.4, 6.5, 10.4, lwd = 2)
+segments(3.5, 10.4, 3.5, 9.6, lwd = 2)
+segments(6.5, 10.4, 6.5, 9.6, lwd = 2)
+text(5, 7, "Distance traveled")
+segments(3.5, 6.5, 6.5, 6.5, lwd = 2)
+segments(3.5, 7.5, 6.5, 7.5, lwd = 2)
+segments(3.5, 6.5, 3.5, 7.5, lwd = 2)
+segments(6.5, 7.5, 6.5, 6.5, lwd = 2)
+text(8.6, 7, "Predation risk")
+segments(7.5, 6.5, 9.8, 6.5, lwd = 2)
+segments(7.5, 7.5, 9.8, 7.5, lwd = 2)
+segments(7.5, 6.5, 7.5, 7.5, lwd = 2)
+segments(9.8, 7.5, 9.8, 6.5, lwd = 2)
+text(8.64, 3.7, "Reproductive effort")
+segments(7.2, 4.2, 10.1, 4.2, lwd = 2)
+segments(7.2, 3.2, 10.1, 3.2, lwd = 2)
+segments(7.2, 4.2, 7.2, 3.2, lwd = 2)
+segments(10.1, 3.2, 10.1, 4.2, lwd = 2)
+
+Arrows(5, 9.5, 5, 7.8, lwd = 2, arr.type = "triangle")
+Arrows(6.6, 7, 7, 7, lwd = 2, arr.type = "triangle")
+Arrows(8.7, 4.8, 8.7, 6.1, lwd = 2, arr.type = "triangle")
+Arrows(8.7, 6.1, 8.7, 4.8, lwd = 2, arr.type = "triangle")
+Arrows(8.3, 4.76, 6.3, 6.2, lwd = 2, arr.type = "triangle")
+
+
+```
+
+
+---
+
+
+# Hypotheses about how an organism’s foraging mode relates to its life history
+
+```{r, echo = FALSE, fig.height = 7, fig.width = 7, fig.align = "center", warning = FALSE, comment = " ", message = FALSE}
+
+
+par(mar = c(1, 1, 1, 1))
+plot(NA, NA, xlim = c(0, 10), ylim = c(-1, 10), ann = FALSE, axes = FALSE)
+
+
+text(5, 10, "Foraging mode")
+segments(3.5, 9.6, 6.5, 9.6, lwd = 2)
+segments(3.5, 10.4, 6.5, 10.4, lwd = 2)
+segments(3.5, 10.4, 3.5, 9.6, lwd = 2)
+segments(6.5, 10.4, 6.5, 9.6, lwd = 2)
+text(5, 7, "Distance traveled")
+segments(3.5, 6.5, 6.5, 6.5, lwd = 2)
+segments(3.5, 7.5, 6.5, 7.5, lwd = 2)
+segments(3.5, 6.5, 3.5, 7.5, lwd = 2)
+segments(6.5, 7.5, 6.5, 6.5, lwd = 2)
+text(8.6, 7, "Predation risk")
+segments(7.5, 6.5, 9.8, 6.5, lwd = 2)
+segments(7.5, 7.5, 9.8, 7.5, lwd = 2)
+segments(7.5, 6.5, 7.5, 7.5, lwd = 2)
+segments(9.8, 7.5, 9.8, 6.5, lwd = 2)
+text(8.64, 3.7, "Reproductive effort")
+segments(7.2, 4.2, 10.1, 4.2, lwd = 2)
+segments(7.2, 3.2, 10.1, 3.2, lwd = 2)
+segments(7.2, 4.2, 7.2, 3.2, lwd = 2)
+segments(10.1, 3.2, 10.1, 4.2, lwd = 2)
+text(4.97, 3.7, "Energy gain")
+segments(3.7, 4.2, 6.2, 4.2, lwd = 2)
+segments(3.7, 3.2, 6.2, 3.2, lwd = 2)
+segments(3.7, 4.2, 3.7, 3.2, lwd = 2)
+segments(6.2, 4.2, 6.2, 3.2, lwd = 2)
+
+
+Arrows(5, 9.5, 5, 7.8, lwd = 2, arr.type = "triangle")
+Arrows(6.6, 7, 7, 7, lwd = 2, arr.type = "triangle")
+Arrows(8.7, 4.8, 8.7, 6.1, lwd = 2, arr.type = "triangle")
+Arrows(8.7, 6.1, 8.7, 4.8, lwd = 2, arr.type = "triangle")
+Arrows(8.3, 4.76, 6.3, 6.2, lwd = 2, arr.type = "triangle")
+Arrows(5, 4.8, 5, 6.1, lwd = 2, arr.type = "triangle")
+Arrows(5, 9.5, 5, 7.8, lwd = 2, arr.type = "triangle")
+Arrows(5, 6.3, 5, 4.8, lwd = 2, arr.type = "triangle")
+
+```
+
+---
+
+
+# Hypotheses about how an organism’s foraging mode relates to its life history
+
+
+```{r, echo = FALSE, fig.height = 7, fig.width = 7, fig.align = "center", warning = FALSE, comment = " ", message = FALSE}
+
+par(mar = c(1, 1, 1, 1))
+plot(NA, NA, xlim = c(0, 10), ylim = c(-1, 10), ann = FALSE, axes = FALSE)
+
+
+text(5, 10, "Foraging mode")
+segments(3.5, 9.6, 6.5, 9.6, lwd = 2)
+segments(3.5, 10.4, 6.5, 10.4, lwd = 2)
+segments(3.5, 10.4, 3.5, 9.6, lwd = 2)
+segments(6.5, 10.4, 6.5, 9.6, lwd = 2)
+text(5, 7, "Distance traveled")
+segments(3.5, 6.5, 6.5, 6.5, lwd = 2)
+segments(3.5, 7.5, 6.5, 7.5, lwd = 2)
+segments(3.5, 6.5, 3.5, 7.5, lwd = 2)
+segments(6.5, 7.5, 6.5, 6.5, lwd = 2)
+text(4.97, 3.7, "Energy gain")
+segments(3.7, 4.2, 6.2, 4.2, lwd = 2)
+segments(3.7, 3.2, 6.2, 3.2, lwd = 2)
+segments(3.7, 4.2, 3.7, 3.2, lwd = 2)
+segments(6.2, 4.2, 6.2, 3.2, lwd = 2)
+text(8.6, 7, "Predation risk")
+segments(7.5, 6.5, 9.8, 6.5, lwd = 2)
+segments(7.5, 7.5, 9.8, 7.5, lwd = 2)
+segments(7.5, 6.5, 7.5, 7.5, lwd = 2)
+segments(9.8, 7.5, 9.8, 6.5, lwd = 2)
+
+text(8.64, 3.7, "Reproductive effort")
+segments(7.2, 4.2, 10.1, 4.2, lwd = 2)
+segments(7.2, 3.2, 10.1, 3.2, lwd = 2)
+segments(7.2, 4.2, 7.2, 3.2, lwd = 2)
+segments(10.1, 3.2, 10.1, 4.2, lwd = 2)
+
+text(1.57, 3.7, "Energy expenditure")
+segments(0, 4.2, 3.1, 4.2, lwd = 2)
+segments(0, 3.2, 3.1, 3.2, lwd = 2)
+segments(0, 4.2, 0, 3.2, lwd = 2)
+segments(3.1, 4.2, 3.1, 3.2, lwd = 2)
+
+text(4.9, 0, "Net energy")
+segments(3.7, 0.5, 6.2, 0.5, lwd = 2)
+segments(3.7, -0.5, 6.2, -0.5, lwd = 2)
+segments(3.7, 0.5, 3.7, -0.5, lwd = 2)
+segments(6.2, 0.5, 6.2, -0.5, lwd = 2)
+
+Arrows(5, 9.5, 5, 7.8, lwd = 2, arr.type = "triangle")
+Arrows(5, 6.3, 5, 4.8, lwd = 2, arr.type = "triangle")
+Arrows(5, 4.8, 5, 6.1, lwd = 2, arr.type = "triangle")
+Arrows(3.8, 6.3, 2, 4.8, lwd = 2, arr.type = "triangle")
+Arrows(8.3, 4.76, 6.3, 6.2, lwd = 2, arr.type = "triangle")
+Arrows(8.7, 6.1, 8.7, 4.8, lwd = 2, arr.type = "triangle")
+Arrows(8.7, 4.8, 8.7, 6.1, lwd = 2, arr.type = "triangle")
+Arrows(6.6, 7, 7, 7, lwd = 2, arr.type = "triangle")
+Arrows(7.1, 3.7, 6.5, 3.7, lwd = 2, arr.type = "triangle")
+Arrows(5, 3, 5, 1, lwd = 2, arr.type = "triangle")
+Arrows(1.8, 3, 3.8, 1, lwd = 2, arr.type = "triangle")
+Arrows(6.1, 1, 8.3, 3, lwd = 2, arr.type = "triangle")
+
+
+```
+
+
+---
+
+# Functional reproductive volume
+
+
+<center> 
+
+
+<img float = "center" src = "images/model1.jpg"  width = "400" height = "380">
+
+
+<p align = "center">
+
+<span style = "color: orange;" > Strategy 1: cryptic species; </span>
+
+<span style = "color: orange;" > Strategy 2: escape efficiency </span>
+
+</p>
+
+<br>
+
+<center>
+
+Vitt and Congdon (1978); Vitt and Price (1982)
+
+</center>
+
+---
+
+# Sit-and-wait lizards evolved greater reproductive effort than did active-foraging lizards?
+
+
+.pull-left[
+
+<center>
+
+<img float = "right" src = "images/vitt-results.jpg"  width = "300" height = "390">
+
+</center>
+
+]
+
+
+.pull-right[
+
+
+<center>
+
+
+<img float = "right" src = "images/model2.jpg"  width = "300" height = "400">
+
+
+</center>
+
+]
+
+<br>
+
+<center>
+
+Vitt and Congdon (1978); Vitt and Price (1982)
+
+</center>
+
+
+---
+
+# Sit-and-wait lizards evolved greater reproductive effort than did active-foraging lizards?
+
+
+.pull-left[
+
+<center>
+
+<img float = "right" src = "images/vitt-results.jpg"  width = "300" height = "390">
+
+</center>
+
+]
+
+
+.pull-right[
+
+
+<center>
+
+<br><br><br>
+
+<img float = "left" src = "images/mesquita.jpg"  width = "500" height = "150">
+
+</center>
+
+]
+
+
+<center>
+
+Vitt and Congdon (1978); Vitt and Price (1982); Mesquita et al. (2016)
+
+</center>
+
+
+---
+
+# Data source and description of variables
+
+<img src = "images/Meiri-2018.jpeg"  width = "700" height = "220">
+
+
+- Offspring mass
+- Offspring number
+- Female mass
+
+<center>
+
+\[\hat M=M_i(\frac{L_0}{L_i})^b_{SMA} \]
+
+\[Reproductive\; output=Offspring\; size \times Offspring\; number \]
+
+</center>
+
+
+---
+
+# Ancestral reconstruction of foraging mode
+
+<br>
+
+- We used a set of continuous-time, discrete-state Markov chain models to sample the character histories from their posterior probability distribution
+
+--
+
+- We fitted three different models to our data, using the function `make.simmap` from the [`phytools` `r emo::ji("package")`](https://cran.r-project.org/web/packages/phytools/index.html) of `r icons::fontawesome("r-project")`, v. 1.0.1
+
+--
+
+- We estimated the prior distribution on the root node of the tree (`pi = 'estimated'`) and sampled the transition matrix, `Q`, from its posterior distribution (`Q = 'mcmc'`).
+
+--
+
+- We selected the most likely model of evolution based on the Akaike information criterion (AIC)
+
+---
+
+# Effects of maternal mass and foraging mode on reproductive output
+
+- We used PGLS to model the relationship among maternal mass, foraging mode and reproductive output trough the `gls` function from the [`nlme` `r emo::ji("package")`](https://cran.r-project.org/web/packages/nlme/index.html) of `r icons::fontawesome("r-project")`, v. 3.1.153
+
+--
+
+- The slope of the linear relationship can be interpreted as reproductive effort—proportion of mass allocated to reproduction—which enabled us to avoid statistical issues associated with the analysis of ratios
+
+--
+
+- Models in which maternal mass was standardized (M) enabled us to deal with outliers, thus increasing the robustness of our conclusions
+
+
+---
+
+# Sit-and-wait foraging is the most likely ancestral state
+
+
+<center>
+
+<img src = "images/figure2.jpeg"  width = "590" height = "590">
+
+</center>
+
+
+---
+
+# Foraging mode is conserved among lizards
+
+
+<center>
+
+<img src = "images/figure2.jpeg"  width = "590" height = "590">
+
+</center>
+
+
+---
+
+# The evolution of reproductive effort in lizards was driven by an interaction between maternal mass and foraging mode
+
+<center>
+
+<img src = "images/figure3.jpeg"  width = "590" height = "490">
+
+</center>
+
+---
+
+
+Our analysis provides evidence that  widely-foraging lizards have evolved greater reproductive effort, but only in heavier species. Food consumption may play an important role:
+
+<br>
+
+1) Promoting follicular growth during the reproductive season
+
+<br>
+
+2) Increasing energy stores to initiate reproduction
+
+<br>
+
+3) reducing age at first reproduction
+
+
+---
+
+.pull-left[
+
+a) If two organisms have the same foraging efficiency, the smaller one would reach its maximal capacity to accumulate resources at a lower value of m, producing fewer or smaller offspring
+
+<br>
+
+b) If a widely-foraging species has a smaller body size but a higher foraging efficiency, it might invest more energy in reproduction than would a large sit-and-wait species
+
+<br>
+
+3) The same outcome should be observed if a widely-foraging species is larger and more efficient than a sit-and-wait species
+
+
+]
+
+.pull-right[
+
+
+<center>
+
+<img src = "images/figure4.jpeg"  width = "210" height = "560">
+
+</center>
+
+
+]
+
+---
+
+# Concluding remarks
+
+<br>
+
+- The early shift in foraging mode—from sit-and-wait foraging to widely foraging—in the evolutionary history of lacertilians was likely accompanied by the evolution of a greater reproductive effort, specifically in large-bodied species of lizards
+
+<br>
+
+- Importantly, our study captured the effects of foraging plasticity on the reproductive effort of lizards. For instance, lizards that adopt a mixed-foraging strategy produced the greatest reproductive effort
+
+
+.pull-left[
+
+<center>
+
+<br><br>
+
+To find more, see `r emo::ji("index")`
+
+</center>
+
+]
+
+.pull-right[
+
+<img src = "images/qrcode.png"  width = "200" height = "200">
+
+]
