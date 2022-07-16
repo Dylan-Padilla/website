@@ -51,3 +51,7 @@ image = ""
 caption = ""
 
 +++
+
+Here is the only version of my talk:
+
+<iframe width="600" height="315" src="https://youtu.be/Dj1V7JM4P_4" frameborder="0" allowfullscreen></iframe>
