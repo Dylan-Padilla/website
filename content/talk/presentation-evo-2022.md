@@ -35,7 +35,7 @@ tags = []
 # Links (optional).
 url_pdf = ""
 url_slides = "https://dylan-padilla.github.io/slides-evo-2022/#1"
-url_video = "https://www.youtube.com/watch?v=Dj1V7JM4P_4"
+url_video = ""
 url_code = "https://github.com/Dylan-Padilla/slides-evo-2022"
 
 # Does the content use math formatting?
