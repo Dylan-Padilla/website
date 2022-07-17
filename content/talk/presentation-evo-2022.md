@@ -1,6 +1,6 @@
 +++
 title = "presentation-evo-2022"
-date = 2022-06-16T21:00:00  # Schedule page publish date.
+date = 2022-07-16T22:30:00  # Schedule page publish date.
 draft = false
 
 
@@ -35,7 +35,7 @@ tags = []
 # Links (optional).
 url_pdf = ""
 url_slides = "https://dylan-padilla.github.io/slides-evo-2022/#1"
-url_video = ""
+url_video = "https://www.youtube.com/watch?v=Dj1V7JM4P_4"
 url_code = "https://github.com/Dylan-Padilla/slides-evo-2022"
 
 # Does the content use math formatting?
@@ -51,3 +51,4 @@ image = ""
 caption = ""
 
 +++
+
