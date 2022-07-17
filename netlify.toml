@@ -1,5 +1,5 @@
 [build]
-command = "hugo"
+command = "CI"
 publish = "public"
 [build.environment]
 HUGO_VERSION = "0.49"
