@@ -44,7 +44,7 @@ I am an Evolutionary Biology PhD student at the School of Life Sciences, [Arizon
 
 <img align="center" src = "/img/darwin-tree.jpg"> 
 
-In addition, I conduct experimental evolution studies in populations maintained in the laboratory. Specifically, I examine the frequencie of alleles with underlying effects on the foraging behavior of individuals evolving under different selective preasures, which enables me to make strong inference concerning phenotypic and genetic responses to selection.
+In addition, I conduct experimental evolution studies in populations maintained in the laboratory. Specifically, I examine the frequency of alleles with underlying effects on the foraging behavior of individuals evolving under different selective pressures, which enables me to make strong inference concerning phenotypic and genetic responses to selection.
 
 
 
