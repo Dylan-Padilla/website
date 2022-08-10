@@ -2,8 +2,8 @@
 date = 2017-01-01T00:00:00  # Schedule page publish date.
 
 title = "Poster ESEB 2022"
-time_start = 2022-07-21T15:05:00
-time_end = 2022-07-21T16:05:00
+time_start = 2022-08-14T18:00:00
+time_end = 2022-08-21T20:00:00
 draft = false
 
 
