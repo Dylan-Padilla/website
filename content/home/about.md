@@ -40,7 +40,7 @@ caption = " "
 
 +++
 
-I am an Evolutionary Biology PhD student at the School of Life Sciences, [Arizona State University](http://asu.edu). My research examines the evolution of the life history among vertabrates and invertabrates. In this context, I use phylogenetic comparative methods to generate hypotheses and draw broad conclusions that can be applied to wide ranges of taxa. I am particularly interested in studying the evolution of foraging mode and its connection to some life-history traits such as adult body size, reproductive effort, age of first reproduction, etc.
+I am an Evolutionary Biology PhD student at the School of Life Sciences, [Arizona State University](http://asu.edu). My research examines the evolution of the life history among vertebrates and invertebrates. In this context, I use phylogenetic comparative methods to generate hypotheses and draw broad conclusions that can be applied to wide ranges of taxa. I am particularly interested in studying the evolution of foraging mode and its connection to some life-history traits such as adult body size, reproductive effort, age of first reproduction, etc.
 
 <img align="center" src = "/img/darwin-tree.jpg"> 
 
