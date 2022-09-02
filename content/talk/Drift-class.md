@@ -54,5 +54,5 @@ caption = ""
 
 +++
 
-<iframe width="800" height="400" src="https://www.youtube.com/embed/kd5BUAKG5OE">
+<iframe width="700" height="400" src="https://www.youtube.com/embed/kd5BUAKG5OE">
 </iframe>
