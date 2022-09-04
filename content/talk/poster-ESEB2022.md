@@ -59,3 +59,8 @@ caption = ""
 Here is a poster I am going to present at the Congress of European Society for Evolutionary Biology in Prague 2022. I made the poster using [posterdown](https://github.com/brentthorne/posterdown), which provides a really easy way to make professional posters in R. Check it out!
 
 ![](/img/poster-ESEB2022.jpg)
+
+During the presentation:
+
+![](/img/poster-present.jpeg)
+
