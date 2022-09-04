@@ -62,5 +62,5 @@ Here is a poster I am going to present at the Congress of European Society for E
 
 During the presentation:
 
-![](/img/poster-present.jpeg)
+![](img/poster-present.jpeg)
 
