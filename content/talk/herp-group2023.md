@@ -2,8 +2,8 @@
 date = 2017-01-01T00:00:00  # Schedule page publish date.
 
 title = "Challenging the foraging-mode paradigm: a case study of lizards"
-time_start = 2023-04-28T7:00:00
-time_end = 2023-04-28T8:00:00
+time_start = 2023-04-28T19:00:00
+time_end = 2023-04-28T20:00:00
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
