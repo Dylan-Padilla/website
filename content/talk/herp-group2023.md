@@ -14,7 +14,7 @@ abstract = " "
 abstract_short = " "
 
 # Name of event and optional event URL.
-event = "BIO 345"
+event = "Herp Group"
 event_url = ""
 
 # Location of event.
