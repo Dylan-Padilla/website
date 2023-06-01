@@ -15,7 +15,7 @@ caption = " "
 # List your academic interests.
 [interests]
   interests = [
-    "Evolutionary Biology",
+    "Genomics",
     "Life History Evolution",
 	"Programming (R software)"
   ]
