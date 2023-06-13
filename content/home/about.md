@@ -16,7 +16,7 @@ caption = " "
 [interests]
   interests = [
     "Genomics",
-    "Life History Evolution",
+    "Population genetics",
 	"Programming (R software)"
   ]
 
