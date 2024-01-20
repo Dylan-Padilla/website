@@ -1,6 +1,4 @@
 +++
-date = 2022-01-01T00:00:00  # Schedule page publish date.
-
 title = "Poster Evolution 2023"
 date = 2023-06-22T17:00:00  # Schedule page publish date.
 draft = false
