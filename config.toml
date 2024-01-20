@@ -13,7 +13,7 @@ title = ""
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2023"
+copyright = "&copy; 2024"
 
 theme = "hugo-academic"
 enableEmoji = true
@@ -63,7 +63,7 @@ enableGitInfo = true
   
   # Details for the Contact Widget
   email = "dpadil10@asu.edu"
-  address = "Angilletta Lab, School of Life Sciences, Tempe, AZ 85287."
+  address = "School of Life Sciences, Tempe, AZ 85287."
   office_hours = ""
   phone = "(+1) 480-646-7769"
   skype = ""
