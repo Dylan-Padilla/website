@@ -1,8 +1,9 @@
 +++
-date = 2022-01-01T00:00:00  # Schedule page publish date.
+date = 2017-03-01T00:00:00  # Schedule page publish date.
 
-title = "Poster Evolution 2023"
-date = 2023-06-22T17:00:00  # Schedule page publish date.
+title = "TAGC24 Washington DC"
+time_start = 2024-03-09T20:00:00
+time_end = 2024-03-09T22:00:00
 draft = false
 
 
@@ -14,14 +15,15 @@ abstract = " "
 abstract_short = " "
 
 # Name of event and optional event URL.
-event = "Evolution 2023 Meeting"
+event = "[TAGC24](https://genetics-gsa.org/tagc-2024/)"
 event_url = ""
 
 # Location of event.
-location = "Albuquerque, NM."
+location = "Washington, DC."
 
 # Is this a selected talk? (true/false)
 selected = true
+
 
 # Projects (optional).
 #   Associate this talk with one or more of your projects.
@@ -35,10 +37,10 @@ projects = []
 tags = []
 
 # Links (optional).
-url_pdf = "https://dylan-padilla.github.io/EVO2023/"
+url_pdf = "https://dylan-padilla.github.io/TAGC24-poster/"
 url_slides = ""
 url_video = ""
-url_code = "https://github.com/Dylan-Padilla/EVO2023/blob/main/index.Rmd"
+url_code = "https://github.com/Dylan-Padilla/TAGC24-poster/blob/main/index.Rmd"
 
 # Does the content use math formatting?
 math = true
@@ -53,3 +55,6 @@ image = ""
 caption = ""
 
 +++
+
+
+![](/img/screenshot-poster.png)
