@@ -25,7 +25,7 @@ caption = " "
 
 [[education.courses]]
   course = "PhD in Evolutionary Biology"
-  institution = "School of Life Sciences at ASU, USA."
+  institution = "Arizona State University, USA."
   year = "2020-present"
 
 [[education.courses]]
