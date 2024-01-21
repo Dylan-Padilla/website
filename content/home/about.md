@@ -29,6 +29,11 @@ caption = " "
   year = "2020-present"
 
 [[education.courses]]
+  course = "M.S. in Evolutionary Biology"
+  institution = "Arizona State University, USA."
+  year = 2023
+
+[[education.courses]]
   course = "M.S. in Ecology and Evolution"
   institution = "Federal University of São Paulo (UNIFESP), Brazil."
   year = 2019
