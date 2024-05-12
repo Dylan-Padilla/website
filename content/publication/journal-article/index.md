@@ -61,5 +61,5 @@ image:
 ---
 
 {{% callout note %}}
-Click the **Cite** button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+Click the **Cite** button above to import publication metadata into your reference management software.
 {{% /callout %}}

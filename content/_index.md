@@ -3,7 +3,7 @@ date: "2024-05-01"
 sections:
 - block: hero
   content:
-#    cta:
+#    cta: 
 #      label: ''
 #      url: 
 #    cta_alt:
@@ -19,7 +19,7 @@ sections:
     image:
       filename:
     text: |-
-      “You will evolve. Not everyone will get it. Evolve anyway.” <br> - Cara Alwill ![](larva.gif) ![](path-black.gif)
+      "You will evolve. Not everyone will get it. Evolve anyway." - Cara Alwill <br><br><img align="right" width="40" height="40" src="https://github.com/Dylan-Padilla/poster-fruit/blob/main/images/larva.gif?raw=true"><img align="right" width="300" height="300" src="https://github.com/Dylan-Padilla/poster-fruit/blob/main/images/path-black.gif?raw=true"><br><br><br><br><br>
 
 #      <!--Custom spacing-->
 #      <div class="mb-3"></div>

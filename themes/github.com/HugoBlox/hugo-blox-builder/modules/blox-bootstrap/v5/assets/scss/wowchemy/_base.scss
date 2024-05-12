@@ -4,35 +4,35 @@
 
 // Override this file to add your own SCSS styling.
 
-@import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+// Override this file to add your own SCSS styling.
 
 /* Generic stuff */
 
-.remark-code, .remark-inline-code { font-family: 'Monaco'; }
-
-body { font-family: 'Open Sans' }
-
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Monaco';
 }
 
-
-div.remark-slide-container h1 {
-    font-family: 'Open Sans', sans-serif;
+.hero-lead {
+    max-width: 768px;
+    font-size: 1.35rem;
+    font-family: 'Monaco';
 }
 
-div.remark-slide-container h2 {
-    font-family: 'Open Sans', sans-serif;
+body {
+    font-family: 'Monaco';
 }
 
-div.remark-slide-container h3 {
-    font-family: 'Open Sans', sans-serif;
+.navbar {
+    height: 70px;
+    background: orange;
+    box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.11);
+    font-size: 16.17px;
+    padding: 0 1rem;
 }
+
 
 html {
-  font-family: $sta-font-body, sans-serif;
+  font-family: 'Monaco';
   font-size: #{$sta-font-size-small}px;
   color: rgba(0, 0, 0, 0.8);
   line-height: 1.65;
@@ -52,7 +52,7 @@ html {
 }
 
 body {
-  font-family: inherit;
+  font-family: 'Monaco';
   font-size: 1rem;
   line-height: inherit;
   color: inherit;
