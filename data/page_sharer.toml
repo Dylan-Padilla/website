@@ -19,7 +19,7 @@
 
 [[buttons]]
   id = "email"
-  url = "mailto:dpadil10@asu.edu"
+  url = "mailto:dpadil10@asu.edu?subject={title}&body={url}"
   title = "Email"
   icon_pack = "fas"
   icon = "envelope"
