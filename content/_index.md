@@ -204,32 +204,17 @@ sections:
       postcode: "85287"
       region: AZ
       street: 427 E Tyler Mall
-#    appointment_url: https://calendly.com
-#    autolink: true
-#    contact_links:
-#    - icon: twitter
-#      icon_pack: fab
-#      link: https://twitter.com/Twitter
-#      name: DM Me
-#    - icon: skype
-#      icon_pack: fab
-#      link: skype:echo123?call
-#      name: Skype Me
-#    - icon: video
-#      icon_pack: fas
-#      link: https://zoom.com
-#      name: Zoom Me
     coordinates:
       latitude: "33.4197"
       longitude: "-111.9339"
 #    directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
     email: dpadil10@asu.edu
-    form:
-      formspree:
-        id: null
-      netlify:
-        captcha: false
-      provider: netlify
+#    form:
+#      formspree:
+#        id: null
+#      netlify:
+#        captcha: false
+#      provider: netlify
 #    office_hours:
 #    - Monday 10:00 to 13:00
 #    - Wednesday 09:00 to 10:00
