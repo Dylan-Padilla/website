@@ -157,7 +157,7 @@ sections:
 #    subtitle: ""
 #    text: |-
 #
-#      <center><img src = "./project/Beyond-Microsoft/imgs/funny-pi#c.jpg" width = 300 height = 300/>&nbsp;<img src = "./project/Beyon#d-Microsoft/imgs/gif-gallery.gif" width = 300 height = 300/></cent#er>
+#      <center><img src = "./project/Beyond Microsoft/imgs/funny-pic.jpg" width = 300 height = 300/>&#nbsp;<img src = "./project/Beyond Microsoft/imgs/gif-gallery.gif" width = 300 height = 300/></center#>
 #
 #    text: '{{< gallery album="demo" >}}'
 #    title: Gallery
