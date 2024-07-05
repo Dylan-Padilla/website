@@ -12,7 +12,7 @@ education:
     institution: Federal University of Sao Paulo, Brazil
     year: 2019
   - course: BSc in Biology
-    institution: Universidad del Atlantico
+    institution: Universidad del Atlantico, Colombia
     year: 2016
 first_name: Dylan
 highlight_name: true

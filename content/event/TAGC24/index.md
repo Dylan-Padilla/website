@@ -26,7 +26,7 @@ location: Gaylord National Resort and Convention Center
 publishDate: "2024-03-01T00:00:00Z"
 #slides: example
 summary:
-tags: []
+#tags: []
 title: Gene copy number promotes the rapid evolution of pests across Diptera
 url_code: "https://github.com/Dylan-Padilla/TAGC24-poster/blob/main/index.Rmd"
 url_pdf: https://github.com/Dylan-Padilla/TAGC24-poster/blob/main/TAGC24-poster.pdf

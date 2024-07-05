@@ -23,7 +23,9 @@ abstract:
 summary:
 
 tags:
-- Source Themes
+- Article
+- JEB
+- Science
 featured: true
 
 # links:

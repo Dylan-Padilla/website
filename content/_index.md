@@ -129,43 +129,51 @@ sections:
 #    columns: "2"
 #    view: compact
 #  id: posts
-#- block: portfolio
-#  content:
-#    buttons:
-#    - name: All
-#      tag: '*'
-#    - name: Deep Learning
-#      tag: Deep Learning
+- block: portfolio
+  content:
+    buttons:
+    - name: All
+      tag: '*'
+    - name: Projects
+      tag: Data Science
+    - name: Featured publications
+      tag: Article
+    - name: News
+      tag: Article
 #    - name: Other
 #      tag: Demo
 #    default_button_index: 0
 #    filters:
 #      folders:
 #      - project
-#    title: Projects
-#  design:
-#    columns: "1"
+    title: Portfolio
+  design:
+    columns: "1"
 #    flip_alt_rows: false
 #    view: showcase
-#  id: projects
+  id: portfolio
 #- block: markdown
 #  content:
 #    subtitle: ""
+#    text: |-
+#
+#      <center><img src = "./project/Beyond-Microsoft/imgs/funny-pi#c.jpg" width = 300 height = 300/>&nbsp;<img src = "./project/Beyon#d-Microsoft/imgs/gif-gallery.gif" width = 300 height = 300/></cent#er>
+#
 #    text: '{{< gallery album="demo" >}}'
 #    title: Gallery
 #  design:
 #    columns: "1"
-- block: collection
-  content:
-    filters:
-      featured_only: true
-      folders:
-      - publication
-    title: Featured Publications
-  design:
-    columns: "2"
-    view: card
-  id: featured
+#- block: collection
+#  content:
+#    filters:
+#      featured_only: true
+#      folders:
+#      - publication
+#    title: Featured Publications
+#  design:
+#    columns: "2"
+#    view: card
+#  id: featured
 #- block: collection
 #  content:
 #    filters:
