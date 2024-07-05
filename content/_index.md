@@ -188,16 +188,16 @@ sections:
 #  design:
 #    columns: "2"
 #    view: citation
-- block: collection
-  content:
-    filters:
-      folders:
-      - event
-    title: Recent & Upcoming Talks
-  design:
-    columns: "2"
-    view: compact
-  id: talks
+#- block: collection
+#  content:
+#    filters:
+#      folders:
+#      - event
+#    title: Recent & Upcoming Talks
+#  design:
+#    columns: "2"
+#    view: compact
+#  id: talks
 #- block: tag_cloud
 #  content:
 #    title: Popular Topics
