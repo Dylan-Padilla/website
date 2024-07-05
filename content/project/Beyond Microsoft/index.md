@@ -26,7 +26,7 @@ url_slides: "https://dylan-padilla.github.io/beyond-microsoft-slides/#1"
 url_video: ""
 ---
 
-As the current Graduate Student Representative to the [American Society of Naturalist (ASN)](https://www.amnat.org/home.html), I am committed to developing a variety of initiatives to provide more valuable services to student members. As part of my duties, I actively participate in planning and assisting with outreach efforts. For instance, planning scientific events aimed primarily at students that further the core goals of the Society is one of my main responsibilities.
+As the current Graduate Student Representative to the [American Society of Naturalists (ASN)](https://www.amnat.org/home.html), I am committed to developing a variety of initiatives to provide more valuable services to student members. As part of my duties, I actively participate in planning and assisting with outreach efforts. For instance, planning scientific events aimed primarily at students that further the core goals of the Society is one of my main responsibilities.
 
 Accordingly, I am excited to announce that I have been working on a small but interesting project that will help any scientist to <u>have freedom in their computing</u>. The project consists of a series of YouTube Shorts called "Beyond Microsoft". This series contains a number of 60s videos that showcase a wide range of programming tools available to perform tasks that scientists carry out on a daily basis, such as writing papers, making professional presentations, building academic websites, among others.
 
