@@ -139,7 +139,7 @@ sections:
     - name: Featured publications
       tag: Article
     - name: News
-      tag: Article
+      tag: Media
 #    - name: Other
 #      tag: Demo
 #    default_button_index: 0
