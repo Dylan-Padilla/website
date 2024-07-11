@@ -19,7 +19,7 @@ highlight_name: true
 interests:
 - Population Genetics
 - Life History Evolution
-- Programming (R)
+- Programming (R, HTML, CSS, Markdown)
 last_name: Padilla
 name_pronunciation:
 organizations:
