@@ -16,6 +16,10 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 768px;
     font-size: 1.35rem;
     font-family: 'Monaco';
+    background: url('./wowchemy/cover_landscape.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
 }
 
 body {

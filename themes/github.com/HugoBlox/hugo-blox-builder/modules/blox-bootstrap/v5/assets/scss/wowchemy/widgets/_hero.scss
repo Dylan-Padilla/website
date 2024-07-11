@@ -13,8 +13,13 @@
 }
 
 .hero-lead {
-  max-width: 768px;
-  font-size: 1.35rem;
+    max-width: 768px;
+    font-size: 1.35rem;
+    font-family: 'Monaco';
+    background: url('/assets/media/cover_landscape.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
 }
 
 .wg-hero.dark .hero-title,

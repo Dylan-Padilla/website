@@ -1,8 +1,8 @@
 ---
 date: "2024-05-01"
 sections:
-- block: hero
-  content:
+#- block: hero
+#  content:
 #    cta: 
 #      label: ''
 #      url: 
@@ -10,28 +10,28 @@ sections:
 #      label: 
 #      url: 
 #    cta_note:
-#      label: '<div style="text-shadow: none;"><a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder"
+#      label: '<div style="text-shadow: none;"><a class="github-button" href="https://github.com/Hugo#lox/hugo-blox-builder"
 #        data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star">Star
 #        Hugo Blox Builder</a></div><div style="text-shadow: none;"><a class="github-button"
 #        href="https://github.com/HugoBlox/theme-academic-cv" data-icon="octicon-star"
 #        data-size="large" data-show-count="true" aria-label="Star">Star the Academic
 #        template</a></div>'
-    image:
-      filename:
-    text: |-
-      <center><img src="./cover_landscape.png"></center>
-
+#    image:
+#      filename:
+#    text: |-
+#      <center><img src="./cover_landscape.png"></center>
+#
 #      <!--Custom spacing-->
 #      <div class="mb-3"></div>
 #      <!--GitHub Button JS-->
 #      <script async defer src="https://buttons.github.io/buttons.js"></script>
-    title: 
-  demo: false
-  design:
-    background:
-      gradient_end: 'black'
-      gradient_start: 'black'
-      text_color_light: true
+#    title: 
+#  demo: false
+#  design:
+#    background:
+#      gradient_end: 'black'
+#      gradient_start: 'black'
+#      text_color_light: true
 - block: about.biography
   content:
     title: Biography
