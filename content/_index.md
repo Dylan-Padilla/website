@@ -19,7 +19,7 @@ sections:
     image:
       filename:
     text: |-
-      <img src="./cover_landscape.png">
+      <center><img src="./cover_landscape.png"></center>
 
 #      <!--Custom spacing-->
 #      <div class="mb-3"></div>
