@@ -19,7 +19,7 @@ sections:
     image:
       filename:
     text: |-
-      "You will evolve. Not everyone will get it. Evolve anyway." - Cara Alwill <br><br><img align="right" width="40" height="40" src="https://github.com/Dylan-Padilla/poster-fruit/blob/main/images/larva.gif?raw=true"><img align="right" width="300" height="300" src="https://github.com/Dylan-Padilla/poster-fruit/blob/main/images/path-black.gif?raw=true"><br><br><br><br><br>
+      <img src="./cover_landscape.png">
 
 #      <!--Custom spacing-->
 #      <div class="mb-3"></div>
