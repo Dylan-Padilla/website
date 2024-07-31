@@ -17,7 +17,7 @@ image:
   focal_point: Right
 location: Palais des Congres de Montreal
 publishDate: "2024-07-13T00:00:00Z"
-title: Upcoming talk
+title: Evolution 2024 talk
 url_code: "https://github.com/Dylan-Padilla/EVO2024/blob/main/index.Rmd"
 url_pdf:
 url_slides: "https://dylan-padilla.github.io/EVO2024/"
@@ -25,4 +25,10 @@ url_video: ""
 ---
 
 I am presenting preliminary results of my research on the evolution of growth and cell size in prokaryotes at the Evolution 2024 meeting. Hit the slides button to follow along!
+
+Update: For the whole session, see the video below. Though, I start talking at min 22. Press the letter 'f' on your keyboard to watch the video on fullscreen mode.
+
+<iframe width="800" height="500"
+src="https://youtube.com/embed/zgpd-XTCuis?si=Qg9f-qk6gvQKlAS8"
+frameborder="1" allowfullscreen></iframe>
 
