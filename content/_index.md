@@ -131,7 +131,7 @@ sections:
 #      text_color_light: true
     columns: "1"
     view: compact
-  id: posts
+  id: beyond-microsoft
 - block: portfolio
   content:
     buttons:
