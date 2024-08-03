@@ -28,11 +28,6 @@ body {
     padding: 0 1rem;
 }
 
-.image-row {
-    display: flex;
-    justify-content: space-between; /* this will add equal space between each image */
-}
-
 
 .chroma {
   background-color: #0d1117;

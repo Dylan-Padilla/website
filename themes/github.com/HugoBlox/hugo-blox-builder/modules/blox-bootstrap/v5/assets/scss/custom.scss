@@ -30,14 +30,18 @@ body {
 }
 
 .image-row {
-    display: flex;
+    display: flex !important;
+    flex-wrap: wrap; /* This value makes the image reponsive to any device */
     padding: 0;
     margin: 0;
     position: relative;
     background: #fbf7d3;
-    justify-content: center;
+    justify-content: center !important;
 }
 
-
-
+@media only screen and (max-width: 300px) {
+    .image-row {
+	width: 100%;
+    }
+}
 
