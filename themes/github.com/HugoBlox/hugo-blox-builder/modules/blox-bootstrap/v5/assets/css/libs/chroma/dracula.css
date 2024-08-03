@@ -28,6 +28,10 @@ body {
     padding: 0 1rem;
 }
 
+.image-row {
+    display: flex;
+    justify-content: space-between; /* this will add equal space between each image */
+}
 
 /* Background */ .bg { color: #f8f8f2; background-color: #282a36 }
 /* PreWrapper */ .chroma { color: #f8f8f2; background-color: #282a36; }

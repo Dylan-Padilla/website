@@ -107,28 +107,31 @@ sections:
 #    title: Accomplish&shy;ments
 #  design:
 #    columns: "2"
-#- block: collection
-#  content:
-#    count: 5
-#    filters:
+- block: collection
+  content:
+    filters:
 #      author: ""
 #      category: ""
 #      exclude_featured: false
 #      exclude_future: false
 #      exclude_past: false
-#      folders:
-#      - post
+      folders:
+      - post
 #      publication_type: ""
 #      tag: ""
 #    offset: 0
 #    order: desc
-#    subtitle: ""
-#    text: ""
-#    title: Recent Posts
-#  design:
-#    columns: "2"
-#    view: compact
-#  id: posts
+    subtitle: ":link: [YouTube Shorts](https://www.youtube.com/@asnamnat9152/shorts)"
+    text: <div class='image-row'><img src = 'trailer1.gif' width=300 height=300/><img src = 'trailer2.gif' width=300 height=300/><img src = 'trailer3.gif' width=300 height=300/></div>
+    title: Beyond Microsoft
+  design:
+    background:
+      gradient_end: '#fbf7d3'
+      gradient_start: '#fbf7d3'
+#      text_color_light: true
+    columns: "1"
+    view: compact
+  id: posts
 - block: portfolio
   content:
     buttons:
