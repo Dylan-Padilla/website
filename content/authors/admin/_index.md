@@ -96,7 +96,5 @@ title:
 
 I am a postdoctoral associate at the [Yale Institute for Biospheric Studies](https://yibs.yale.edu/). I work with the [Skelly Lab](https://campuspress.yale.edu/skellylab/) and [Munoz Lab](http://www.marthamunoz.com/) to examine the evolution of the life history among vertebrates and invertebrates (e.g., [see here](https://www.dropbox.com/s/9umvsjpvn7mj2eb/Padilla%20Perez%20D.J.%20and%20Angilletta%20Jr.%2C%20M.J.%20%282022%29.%20Macroclimatic%20and%20maternal%20effects%20on%20the%20evolution%20of%20reproductive%20traits%20in%20lizards.pdf?dl=0)). In doing so, I use phylogenetic comparative methods to generate hypotheses and draw broad conclusions that can be applied to wide ranges of taxa (e.g., [see here](https://www.dropbox.com/s/uuzlu4m8valyw97/Padilla%20Perez%20et%20al.%2C%202022.%20The%20correlated%20evolution%20of%20foraging%20mode%20and%20reproductive%20effort%20in%20lizards.pdf?dl=0)).
 
-
-
 In addition, I conduct experimental evolution studies to examine the frequency of alleles with underlying effects on the life history of individuals evolving under different selective pressures, which enables me to make strong inferences concerning phenotypic and genetic responses to selection (e.g., [see here](https://academic.oup.com/jeb/article/37/2/201/7485763?login=true)).
 {style="text-align: justify;"}
