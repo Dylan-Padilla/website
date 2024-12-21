@@ -5,6 +5,10 @@ image:
   caption: 
   focal_point: 
 links:
+- icon: fa-bluesky
+  icon_pack: fa-bluesky
+  name: Bluesky
+  url: https://bsky.app/profile/dylanpadilla.bsky.social
 - icon: link
   icon_pack: fa
   name: Media
@@ -24,7 +28,7 @@ I recently defended my doctoral dissertation.
 
 Watch the recording below:
 
-<iframe width="800" height="500"
+<iframe width="700" height="500"
 src="https://youtube.com/embed/ZaIl_4zLOIo?si=b5VnzSwbHpbHJWSC"
 frameborder="1" allowfullscreen></iframe>
 

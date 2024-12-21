@@ -28,7 +28,7 @@ I am presenting preliminary results of my research on the evolution of growth an
 
 Update: For the whole session, see the video below. Though, I start talking at min 22. Press the letter 'f' on your keyboard to watch the video on fullscreen mode.
 
-<iframe width="800" height="500"
+<iframe width="700" height="500"
 src="https://youtube.com/embed/zgpd-XTCuis?si=Qg9f-qk6gvQKlAS8"
 frameborder="1" allowfullscreen></iframe>
 
