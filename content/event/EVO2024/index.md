@@ -9,7 +9,7 @@ all_day: false
 authors: [Dylan Padilla]
 date: "2024-07-30T10:00:00Z"
 date_end: "2024-07-30T10:15:00Z"
-event: EOVLUTION 2024
+event: EVOLUTION 2024
 event_url: https://www.evolutionmeetings.org/
 featured: false
 image:
