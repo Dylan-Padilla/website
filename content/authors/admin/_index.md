@@ -70,21 +70,15 @@ social:
 - icon: envelope
   icon_pack: fas
   link: /#contact
-- display:
-    header: true
-  icon: x-twitter
-  icon_pack: fab
-  label: Follow me on Twitter
-  link: https://twitter.com/Dylan_Padilla94
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com.br/citations?user=vMze9nIAAAAJ&hl=en
 - icon: github
   icon_pack: fab
   link: https://github.com/Dylan-Padilla
-#- icon: linkedin
+#- icon: bluesky
 #  icon_pack: fab
-#  link: https://www.linkedin.com/
+#  link: https://bsky.app/profile/dylanpadilla.bsky.social
 - icon: cv
   icon_pack: ai
   link: https://dylan-padilla.github.io/pagedown-cv/

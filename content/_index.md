@@ -209,15 +209,15 @@ sections:
 - block: contact
   content:
     address:
-      city: Tempe
+      city: New Haven
       country: United States
       country_code: US
-      postcode: "85287"
-      region: AZ
-      street: 427 E Tyler Mall
+      postcode: "06511"
+      region: CT
+      street: Osborn Memorial Laboratories
     coordinates:
-      latitude: "33.4197"
-      longitude: "-111.9339"
+      latitude: "41.3168"
+      longitude: "-72.9238"
 #    directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
     email: dpadil10@asu.edu
 #    form:
