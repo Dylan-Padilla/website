@@ -122,7 +122,7 @@ sections:
 #    offset: 0
 #    order: desc
     subtitle: ":link: [YouTube Shorts](https://www.youtube.com/@asnamnat9152/shorts)"
-    text: <div class='image-row'><img src = 'trailer1.gif' width=300 height=300/><img src = 'trailer2.gif' width=300 height=300/><img src = 'trailer3.gif' width=300 height=300/></div>
+    text: <div class='image-row'><img src = 'trailer2.gif' width=300 height=300/><img src = 'trailer3.gif' width=300 height=300/></div>
     title: Beyond Microsoft
   design:
     background:
@@ -214,12 +214,12 @@ sections:
       country_code: US
       postcode: "06511"
       region: CT
-      street: Osborn Memorial Laboratories
+      street: Yale Peabody Museum
     coordinates:
-      latitude: "41.3168"
-      longitude: "-72.9238"
+      latitude: "41.316"
+      longitude: "-72.921"
 #    directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-    email: dpadil10@asu.edu
+    email: dylan.padilla@yale.edu
 #    form:
 #      formspree:
 #        id: null
