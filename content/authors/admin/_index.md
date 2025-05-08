@@ -69,7 +69,7 @@ social:
   link: /#contact
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.com.br/citations?user=vMze9nIAAAAJ&hl=en
+  link: https://scholar.google.com/citations?user=epl0hQwAAAAJ&hl=en&citsig=AKr7NahqSPriZvx5LwoWXeNX-9Uc
 - icon: github
   icon_pack: fab
   link: https://github.com/Dylan-Padilla
