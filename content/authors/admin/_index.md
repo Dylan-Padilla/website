@@ -17,8 +17,9 @@ education:
 first_name: Dylan
 highlight_name: true
 interests:
+- Evolutionary Genomics
 - Population Genetics
-- Life History Evolution
+- Ecology
 - Programming (R, HTML, CSS, Markdown)
 last_name: Padilla
 name_pronunciation:
